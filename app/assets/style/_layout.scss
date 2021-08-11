@@ -1,0 +1,37 @@
+.sidebar {
+  background: $gray-100;
+  padding: 32px 0;
+}
+.logo {
+  background: url("https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/2b326fe971cd296bd54667a9b4a63c4b0f19fab3/week5/logo-ANSWER.svg");
+  width: 151px;
+  height: 40px;
+  @include hide-text;
+  margin-bottom: 32px;
+  margin-left: 32px;
+  a {
+    display: block;
+  }
+}
+.sidebar-list {
+  li {
+    margin-bottom: 24px;
+    padding-left: 28px;
+    border-left: 4px solid rgba(255, 255, 255, 0.5);
+    &:hover {
+      border-left: 4px solid $success;
+    }
+  }
+  a {
+    &:hover {
+      color: $success;
+    }
+  }
+  span {
+    padding-right: 16px;
+  }
+}
+
+.circular-portrait {
+  @include circular-portrait(40px);
+}

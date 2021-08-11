@@ -1,0 +1,35 @@
+.navbar {
+  padding: 0;
+}
+.chapter {
+  padding: 12px 16px;
+}
+.chapter-item {
+  padding: 16px 32px 15px 16px;
+}
+.chapter-item-2 {
+  margin: 0 32px 0 64px;
+}
+.circular-download {
+  display: inline-block;
+  color: $gray-900;
+  font-weight: bold;
+  background: $gray-100;
+  padding: 8px 16px 8px 12px;
+  margin-bottom: 16px;
+  &:hover {
+    color: $success;
+  }
+  span {
+    margin-right: 8px;
+  }
+}
+.confirm-link {
+  display: block;
+  padding: 8px 32px;
+}
+.icon-hover {
+  &:hover {
+    color: $success;
+  }
+}

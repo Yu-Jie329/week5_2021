@@ -1,0 +1,53 @@
+.page-link {
+  color: $gray-900;
+  &:hover {
+    color: $light;
+    background: $success;
+  }
+}
+.page-change {
+  color: $success;
+  &:hover {
+    color: $light;
+  }
+}
+.modal-header {
+  border-bottom: none;
+  padding: 2rem;
+}
+.modal-body {
+  padding: 0 2rem;
+
+  label {
+    color: $gray-900;
+  }
+  button {
+    padding: 16px;
+    border-radius: none;
+    border: 1px solid $gray-400;
+  }
+}
+.form-check {
+  display: flex;
+  align-items: center;
+}
+.form-check-input {
+  width: 24px;
+  height: 24px;
+  border: 1px solid $gray-900;
+}
+.form-check-label {
+  margin-left: 8px;
+}
+.modal-footer {
+  border-top: none;
+  padding: 16px 32px;
+  button {
+    padding: 8px 32px;
+  }
+}
+
+.img-m {
+  width: 141px;
+  height: 141px;
+}

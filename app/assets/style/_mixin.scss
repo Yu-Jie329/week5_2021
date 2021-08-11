@@ -1,0 +1,21 @@
+//圖片取代文字
+@mixin hide-text {
+  text-indent: 101%;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+//員行銷像圖
+@mixin circular-portrait($size) {
+  display: inline-block;
+  position: relative;
+  width: $size;
+  height: $size;
+  overflow: hidden;
+  border-radius: 50%;
+  img {
+    position: absolute;
+    width: 100%;
+    height: auto;
+  }
+}
